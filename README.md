@@ -1,7 +1,10 @@
 # aop 面向切面编程
 
 ## aop配置的重点
-       向容器中注入 ！切面类，！被切类  
+       向容器中注入 ！切面类，！被切类   
+       
+       <bean id="aopAspect" class="com.atcdu.liujun.aop2.AopAspect"></bean>
+       <bean id="aopTarget" class="com.atcdu.liujun.aop2.AopTarget"></bean>
        
 ### 一：普通面向切面编程
      
